@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Titleheader">
+        <h1>Who's That Pokemon?</h1>
+        <p class="warning">*please double click</p>
+    </div>
+
+    <div id="button">
+        <button onclick="myFunction()">Reveal Pokemon</button>
+    </div>
+
+    <div id="JustinPokemon">
+        <div class="Navbar">
+        <h3 class="JustinName"> #2022 Justin Perez</h3>
+        <a href="#section2"><h3 class="Firstbutton"> Education & Experiences</a></h3>
+        <a href="#section3"><h3 class="Secondbutton">Personal Projects</a></h3>
+        <a href="#section4"><h3 class="ThirdButton">About Me</a></h3>
+        <a href="#section5"><h3 class="FourthButton">Contact</a></h3>
+        </div>
+        <div class="JustinImageDescription">
+        <img src="images/Justinimage1.jpg">
+        <p class="Description">Not sure what to put here, might be some pokemon joke. Only future Justin knows. Found another problem, the border is on the text, so I have to continue typing. Yay! more things to do. </p>
+        </div>   
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("JustinPokemon");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          }
+
+          else {
+            x.style.display = "none";
+        
+          }
+          var y = document.getElementById("section2")
+          if (y.style.display === "none") {
+            y.style.display = "block";
+          }
+          else {
+            y.style.display = "none";
+         }
+         var n = document.getElementById("section3")
+          if (n.style.display === "none") {
+            n.style.display = "block";
+          }
+          else {
+            n.style.display = "none";
+         }
+         var a = document.getElementById("section4")
+          if (a.style.display === "none") {
+            a.style.display = "block";
+          }
+          else {
+            a.style.display = "none";
+         }
+         var b = document.getElementById("section5")
+          if (b.style.display === "none") {
+            b.style.display = "block";
+          }
+          else {
+            b.style.display = "none";
+         }
+        }
+    </script>
+    <div style="position:relative; top: 500px" id="section2">
+        <div class="Section2Title">
+        <h1>Education & Experiences</h1>
+        </div>
+        <div class="Section2Description">
+         <ul>
+           <li>Currently a Senior at Hunter College Highschool</li>
+           <li>Attended a Summer Intensive called All Star Code</li>
+         </ul> 
+        <p>click <a href="https://www.hunterschools.org/">here</a> to learn more about my school.</p>
+        </div> 
+        <div class="EndSection2">
+        <a href="#section3"><h3>Personal Projects</a></h3>
+        <a href="#section4"><h3>About Me</a></h3>
+        <a href="#section5"><h3>Contact</a></h3>
+        <a href="#Titleheader"><h3>Home</a></h3>
+        </div>
+    </div>
+    <div style="position: relative; top: 700px;" id="section3">
+      <div class="section3Title">
+      <h1>Personal Projects</h1>
+      </div>
+      <div class="Section3Description">
+        <p>
+          Throughout my "career", I've made plenty of mini projects that demonstrate my knowledge in Computer Science. Most of these projects lay on my hard drive, never seeing the light of day(or screen). But other projects are promising, so I continued to work on them. These are just a few: </p>
+        </div>
+        <div class="Section3Projects">
+        <h3>Projects</h3>
+        <ul>
+          <li>This Website(Still in Progress)</li>
+          <li>Brick Breaker(Also still in Progress)</li>
+          <li>Project #3</li>
+          <li>Project #4</li>
+          <li>*Staring at a screen for hours is tougher than I expected, hence the still in progress signs</li>
+        </ul>
+      </div>
+        <div class="Section3End">
+          <a href="#section2"><h3>Education</a></h3>
+          <a href="#section4"><h3>About Me</a></h3>
+          <a href="#section5"><h3>Contact</a></h3>
+          <a href="#Titleheader"><h3>Home</a></h3>
+        </div>
+      </div>  
+    </div>
+
+    <div style="position: relative; top: 900px;" id="section4">
+      <div class="section4Title">
+        <h1>About Me</h1>
+      </div>
+      <div class="Section4Description">
+        <p> Most of my passions involve different kinds of sports. I'm a big fan of basketball, so I follow the NBA and root for the OKC Thunder. I also enjoy track & field and playing soccer. Coding has recently become another one of my passions and look forward to making it a career. Maybe one day, you'll use one of my apps or programs :).</p>
+      </div>
+      <div class="Section4End">
+        <a href="#section2"><h3>Education</a></h3>
+        <a href="#section3"><h3>Personal Projects</a></h3>
+        <a href="#section5"><h3>Contact</a></h3>
+        <a href="#Titleheader"><h3>Home</a></h3>
+
+        
+      </div>
+
+    </div>
+
+    <div style="position: relative; top: 1100px;" id="section5">
+      <div class="section5Title">
+        <h1>Contact Me</h1>
+      </div>
+      <div class="Section5Description">
+        <p>Say Hi!</p>
+        <ul>
+          <a href="https://www.linkedin.com/in/justin-perez-748819218/"><li>LinkedIn</li></a>
+          <li>Email Me: justinperez091000@gmail.com</li>
+          <li>Number: I don't answer, so don't bother</li>
+        </ul>
+      </div>
+
+      <div class="Section5End">
+        <a href="#section2"><h3>Education</a></h3>
+        <a href="#section3"><h3>Personal Projects</a></h3>
+        <a href="#section4"><h3>About Me</a></h3>
+        <a href="#Titleheader"><h3>Home</a></h3>
+      </div>
+
+    </div>
+
+
+</body>
+</html>

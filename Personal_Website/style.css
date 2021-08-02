@@ -1,0 +1,146 @@
+* {background-color: rgba(141,134,201,255)}
+
+#Titleheader {
+    color: #F7ECE1;
+    border: solid rgba(36,32,56,255);
+    font-family: 'Rubik', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#Titleheader h1 {
+    padding-left: 500px;
+    background: rgba(141,134,201,255);
+}
+
+#Titleheader .warning {
+    padding-left: 600px;
+    font-size: 10px;
+
+}
+
+#button {
+    padding-left: 600px;
+}
+
+#Titleheader h1{
+    background: rgba(141,134,201,255);
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-evenly;
+    color: #F7ECE1;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#JustinPokemon {
+    margin-top: 30px ;
+    border: solid rgba(36,32,56,255);
+    background:rgba(141,134,201,255);   
+    display: none;
+}
+
+#JustinPokemon .JustinImageDescription{
+    display: flex;
+    color: #F7ECE1;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#JustinPokemon .Description{
+    padding-left: 20px;
+    border-top: solid rgba(36,32,56,255);
+    padding-top: 40px;
+}
+
+#JustinPokemon img {
+    max-width: auto;
+    height: 250px;
+    border-right: solid rgba(36,32,56,255);
+    margin-top: 15.5px;
+    border-top: solid rgba(36,32,56,255);
+} 
+
+#section2{
+    height: 400px;
+    display: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Section2Title {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.Section2Description {
+    font-size: 30px;
+}
+
+.EndSection2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+#section3 {
+    height: 400px;
+    display: none;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.Section3Description {
+    font-size: 30px;
+}
+
+.section3Title {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+#section3 .Section3End {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+ .Section3Projects {
+     font-size: 120%;
+ }
+
+#section4 {
+    height: 400px;
+    display: none;
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.section4Title {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.Section4Description {
+    font-size: 30px;
+}
+
+.Section4End {
+    font-size: 20px;
+}
+
+#section4 .Section4End{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section5{
+    height: 400px;
+    display: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 20px;
+}
+
+
+#section5 .Section5End {
+    display: flex;
+    justify-content: space-around;
+}
